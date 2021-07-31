@@ -66,5 +66,5 @@ const mongooseConfig = (function () {
 app.use('/', defaultRouter);
 
 app.listen(port, (req, res) => {
-    console.log('Server up');
+    console.log(`Server is running on port ${port}`);
 });
